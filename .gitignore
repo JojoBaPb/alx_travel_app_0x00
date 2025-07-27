@@ -154,6 +154,26 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Django files
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+
 # mypy
 .mypy_cache/
 .dmypy.json
